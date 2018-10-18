@@ -1,0 +1,59 @@
+body {
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#forecast {
+	margin: 10% auto;
+	text-align: center;
+	font-family: 'Peralta', cursive;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 24px;
+}
+
+h2 + p {
+	margin-top: 50px;
+}
+
+#degree {
+	cursor: pointer;
+	color: crimson;
+	opacity: .7;
+}
+
+#degree:hover {
+	opacity: 1;
+}
+
+.author {
+	font-size: 12px;
+	font-style: italic;
+	position: absolute;
+	right: 80px;
+	bottom: 10px;
+	font-family: 'Peralta', cursive;
+}
+
+.author a {
+	text-decoration: none;
+	cursor: pointer;
+	color: crimson;
+	opacity: .7;
+}
+
+.author a:hover {
+	opacity: 1;
+}

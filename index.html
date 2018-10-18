@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Weather by location</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous">
+  </script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="forecast">
+		<h1>Weather App</h1>
+		<h2><span id="location"></span></h2>
+		<p>It is currently <span id="temp"> </span><span class="celc" id="degree" onclick="changeDeg()">&deg;C</span> <span id="desc"> </span></p>
+		<p>Wind: <span id="wind"></span> m/s</p>
+	</div>
+	<p class="author">Made by <a href="https://github.com/i-rozhkov">Ivan Rozhkov</a></p>
+</body>
+</html>
